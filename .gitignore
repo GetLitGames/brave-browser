@@ -10,7 +10,6 @@
 CMakeLists.txt
 cmake-build-debug
 .idea
-.vscode
 *.sw[a-z]
 *~
 
@@ -33,3 +32,4 @@ network_log.json
 network-audit-results.json
 
 .npmrc
+config.bat

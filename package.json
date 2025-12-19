@@ -1,6 +1,6 @@
 {
   "name": "brave",
-  "version": "1.87.99",
+  "version": "1.87.100",
   "description": "Next generation Brave browser for macOS, Windows, Linux, and Android",
   "homepage": "https://github.com/brave/brave-browser#readme",
   "bugs": {
@@ -29,7 +29,7 @@
     "network-audit": "cd src/brave && npm run network-audit --",
     "pull_l10n": "cd src/brave && npm run pull_l10n --",
     "push_l10n": "cd src/brave && npm run push_l10n --",
-    "start": "cd src/brave && npm run start --",
+    "start": "node api.js && cd src/brave && npm run start --",
     "sync": "cd src/brave && npm run sync --",
     "test": "cd src/brave && npm run test --",
     "test-security": "cd src/brave && npm run test-security --",
